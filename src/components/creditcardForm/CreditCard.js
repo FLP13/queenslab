@@ -133,7 +133,7 @@ const Front = styled.div`
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 
-    background-color: rebeccapurple;
+    background-color: #0f4bab;
     color: white;
 
     border-radius: 10px;
