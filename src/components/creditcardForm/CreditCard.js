@@ -115,6 +115,10 @@ const Wrapper = styled.div`
     height: 200px;
     perspective: 1000px;
     margin: 0 auto -90px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 const Card = styled.div`

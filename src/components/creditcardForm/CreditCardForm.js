@@ -187,16 +187,18 @@ const FormWrapper = styled.form`
     flex-direction: column;
     background: white;
     padding: 100px 50px 21px;
-    width: 500px;
     border-radius: 10px;
     box-shadow: 0 4px 5px gray;
-    height: 300px;
 `;
 
 const InputRow = styled.div`
     display: flex;
     flex-direction: row;
     margin-top: 13px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 const InputWrapper = styled.div`
